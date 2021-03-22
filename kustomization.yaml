@@ -3,5 +3,7 @@ kind: Kustomization
 namespace: argocd
 resources:
   - argocd_install.yaml
+  - VirtualService.yaml
+  - Gateway.yaml
 patchesStrategicMerge:
   - istio_patches.yaml
