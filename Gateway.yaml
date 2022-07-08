@@ -16,7 +16,7 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - argocd.xip.io # Change this to your domain
+    - argocd.xip.se # Change this to your domain
     port:
       name: https
       number: 443
